@@ -1,0 +1,328 @@
+
+body{
+	margin:0;
+	padding:0;
+}
+
+a{
+	text-decoration:none;
+}
+
+li{
+	text-decoration:none;
+	list-style:none;
+}
+
+
+/*Стили для хедер*/
+.logo {
+	background-color:#FFFFFF;
+	width:100%;
+	display:flex;
+	justify-content:left;
+}
+
+.graficlogo{
+	padding: 10px;
+	max-width:100%;
+	
+}
+
+
+nav{
+	margin: auto;
+	height:100%;
+}
+
+
+.topnav{
+	background-color:#FFFFFF;
+	font-size:24px;
+	
+}
+.topnav a{
+	color:#000;
+	text-align:center;
+	padding: 14px 50px;
+	
+}
+.topnav a:hover{
+	background-color:#F7F7F7;
+	border-bottom: 2px solid #000;
+	font-family:sans-serif;
+}
+
+
+
+/*Стили для футер*/
+
+footer{
+	display:flex;
+	justify-content:center;
+	background-color:#000;
+	color:#ffff;
+	padding:5px;
+	font-size:25px;
+	margin-top:auto;
+}
+
+
+/*1)Что бывает в наличии*/
+.page{
+	overflow:hidden;
+	display:flex;
+	min-height:100vh;
+	flex-direction:column;
+}
+
+/*Стили для текста в рамках на страницах*/
+/*1)Главная*/
+.text{
+	border-radius: 20px;
+	font-family:sans-serif;
+	letter-spacing:1px;
+	background-color:#ADE0EA;
+	border:3px solid #ADE0EA;
+	POSITION: ABSOLUTE;
+	COLOR: #000000;
+	FONT-SIZE: 23px;
+	PADDING: 20px;
+	margin-top:50px;
+	margin-left:20px;
+	box-shadow:5px 5px 10px #3F8AB1;
+	animation: tx 3s 1;
+}
+
+.text:hover{
+	border:6px solid #ADE0EA;
+}
+
+@keyframes tx{
+	0%{
+		color:#ADE0EA;
+	}
+	30%{
+		letter-spacing:8px; 
+	}
+	85%{
+	letter-spacing:1px;
+}	
+}
+
+/*2)Как заказать*/
+
+.text1{
+	border-radius: 20px;
+	font-family:sans-serif;
+	PADDING: 20px;
+	margin-top:50px;
+	margin-left:20px;
+	position: absolute;
+	font-size: 25px;
+	color: black;
+	background-color:#ADE0EA;
+	border:3px solid #ADE0EA;
+	box-shadow:8px 8px 20px #75A4CF;
+	letter-spacing:1px;
+	animation: tx1 3s 1;
+}
+
+.text1:hover{
+	border:6px solid #ADE0EA;
+	
+}
+
+@keyframes tx1{
+	0%{
+		color:#ADE0EA;
+	}
+	30%{
+		letter-spacing:8px; 
+	}
+	85%{
+	letter-spacing:1px;
+}
+}
+
+/*3)Контакты*/
+
+.text2{
+	border-radius: 20px;
+	PADDING: 20px;
+	background-color:#BDDCEC;
+	border:3px solid #BDDCEC;
+	box-shadow:8px 8px 20px #71919A;
+	position:absolute;
+	font-size: 35px;
+	margin-left: 900px;
+	margin-top:50px;	
+}
+
+.text2:hover{
+	border:6px solid #BDDCEC;
+}
+
+/*Таблица*/
+
+.table{
+	position: absolute;
+	padding-left:960px;
+	padding-top:30px;
+}
+
+
+.Q{
+	color:#000000;
+	font-size:25px;
+	background-color:#89D4E6;
+	font-family:sans-serif;
+    border: 3px solid #062451;
+	border-collapse:collapse;
+	text-align:center;
+	box-shadow:8px 8px 20px #69DBF3;
+}
+
+
+.t1:hover{
+	font-size:38px;
+}
+
+/*1)Блок contacts*/
+
+.bloc{
+	font-size:35px;
+	background-color:#102834;
+	font-family:sans-serif;
+    border: 3px solid #02122B;
+	margin-left:290px;
+	margin-top:600px;
+	POSITION: ABSOLUTE;
+	padding:10px;
+	padding-left:45px;
+	padding-right:45px;
+}
+
+
+
+th{ 
+font-size:30px;
+padding:20px;
+border-style:solid;
+	border-width:0 2px 2px 0;
+	border-color:#102834;
+}
+
+
+td{  
+background-color:#9DFFFF;
+padding:10px;
+border-style:solid;
+	border-width:0 2px 2px 0;
+	border-color:#102834;
+}
+
+
+
+
+
+
+/*Форма регистрации*/
+
+.FR{
+	font-family:Tahoma;
+	background-color:#A1CDCD;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 30px;
+	width: 450px;
+	height: 470px;
+	padding:30px;
+	box-shadow: 8px 8px 14px #3B7474;
+	border-radius:10px/10px;
+	
+	
+}
+.group{
+	margin:10px;
+	padding:5px;
+}
+
+h1{
+	cursor: help;
+	margin: 0;
+	text-transform:uppercase;
+	padding-bottom: 5px;
+	border-bottom: 3px solid #AA00FF;
+}
+
+label{
+	padding-left:10px;
+	text-transform:uppercase;
+}
+
+input{
+	padding-top:10px;
+	width: 400px;
+	height: 35px;
+	border-radius:20px/20px;
+	padding-left:10px;
+	border:none;
+	font-size:18px;
+	box-shadow: 2px 2px 5px #3B7474;
+	
+}
+
+input:hover{
+	border:2px solid #6D00A3;
+	transform:translateX(15px);
+	
+	
+	
+}
+
+.button{
+	cursor:pointer;
+	margin-left:30px;
+	padding:10px 10px;
+	height:40px;
+	width:150px;
+	color:#FFFFFF;
+	background:#AA00FF;
+	font-size:14px;
+	text-transform:uppercase;
+	box-shadow: 2px 2px 5px #6D00A3;
+	border:none;
+}
+
+
+.button:hover{
+opacity:0.7;
+transform:scale (1.1);
+
+	
+}
+
+.button1{
+	cursor:pointer;
+	margin-left:60px;
+	padding:10px 10px;
+	height:40px;
+	width:150px;
+	color:#FFFFFF;
+	background:#AA00FF;
+	font-size:14px;
+	text-transform:uppercase;
+	box-shadow: 2px 2px 5px #6D00A3;
+	border:none;
+}
+
+
+.button1:hover{
+opacity:0.7;
+transform:scale (1.1);
+
+	
+}
+
+
+
