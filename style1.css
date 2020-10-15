@@ -241,6 +241,7 @@ footer{
 /*3)Контакты*/
 
 .text2{
+	display:block;
 	border-radius: 20px;
 	PADDING: 20px;
 	background-color:#BDDCEC;
@@ -260,6 +261,7 @@ footer{
 
 .table{
 	position: absolute;
+	display:block;
 	padding-left:960px;
 	padding-top:30px;
 }
@@ -281,20 +283,7 @@ footer{
 	font-size:38px;
 }
 
-/*1)Блок contacts*/
 
-.bloc{
-	font-size:35px;
-	background-color:#102834;
-	font-family:sans-serif;
-    border: 3px solid #02122B;
-	margin-left:290px;
-	margin-top:600px;
-	POSITION: ABSOLUTE;
-	padding:10px;
-	padding-left:45px;
-	padding-right:45px;
-}
 
 
 
