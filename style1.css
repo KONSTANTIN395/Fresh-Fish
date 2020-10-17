@@ -292,6 +292,16 @@ footer{
 	left:0;
 }
 
+@media screen and (max-width:1440px){
+	
+.text2{
+	left:275px;
+}
+	
+}
+
+
+
 #menu{
 	padding-left:540px;
 	
@@ -310,6 +320,14 @@ footer{
 
 .table:hover{
 	left:0;
+}
+
+@media screen and (max-width:1440px){
+	
+.table{
+	left:275px;
+}
+	
 }
 
 #menu1{
