@@ -20,6 +20,10 @@ li{
 	font-size: 18px;
 }
 
+.nav1{
+	padding-left:100px;
+}
+
 #nav {
 	float:left;
 	position:relative;
@@ -61,7 +65,7 @@ li{
 #nav a:hover{
 	border-bottom: 2px solid #000;
 	font-family:sans-serif;
-	font-size:23px;
+	font-size:20px;
 }
 
 #nav ul li:hover{
@@ -94,7 +98,7 @@ li{
 }
 
 .graficlogo{
-	padding: 0px;
+	padding-left:0px;
 	max-width:100%;
 	
 }
@@ -105,6 +109,36 @@ nav{
 	margin: auto;
 	height:100%;
 }
+
+
+/*Перемещуние элементов меню в логотип при увеличении масштаба*/
+.logo1 {
+	height:50px;
+	display:none;
+}
+
+.logo1:hover{
+	left:0;
+}
+
+@media screen and (max-width:1440px){
+	
+.logo1{
+	display:block;
+}
+
+
+.logo{
+	display:none;
+}
+	
+}
+
+
+
+
+
+
 
 
 .topnav{
@@ -182,7 +216,7 @@ footer{
 	COLOR: #000000;
 	FONT-SIZE: 23px;
 	PADDING: 20px;
-	margin-top:90px;
+	margin-top:256px;
 	margin-left:20px;
 	box-shadow:5px 5px 10px #3F8AB1;
 	animation: tx 3s 1;
@@ -210,7 +244,7 @@ footer{
 	border-radius: 20px;
 	font-family:sans-serif;
 	PADDING: 20px;
-	margin-top:100px;
+	margin-top:256px;
 	margin-left:20px;
 	position: absolute;
 	font-size: 25px;
@@ -253,7 +287,7 @@ footer{
 	position:absolute;
 	font-size: 35px;
 	
-	margin-top:90px;
+	margin-top:250px;
 
 }
 
@@ -336,7 +370,7 @@ border-style:solid;
 	font-family:Tahoma;
 	background-color:#A1CDCD;
     position: absolute;
-    margin-left: 100px;
+    margin-left: 250px;
     margin-top: 60px;
 	width: 450px;
 	height: 470px;
@@ -351,11 +385,11 @@ border-style:solid;
 	font-family:Tahoma;
 	background-color:#A1CDCD;
     position: absolute;
-    margin-left: 100px;
+    margin-left: 240px;
     margin-top: 60px;
 	width: 450px;
 	height: 250px;
-	padding:30px;
+	padding:15px;
 	box-shadow: 8px 8px 14px #3B7474;
 	border-radius:10px/10px;
 	
