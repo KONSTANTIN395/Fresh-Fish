@@ -172,6 +172,7 @@ footer{
 /*Стили для текста в рамках на страницах*/
 /*1)Главная*/
 .text{
+	
 	border-radius: 20px;
 	font-family:sans-serif;
 	letter-spacing:1px;
@@ -181,7 +182,7 @@ footer{
 	COLOR: #000000;
 	FONT-SIZE: 23px;
 	PADDING: 20px;
-	margin-top:100px;
+	margin-top:90px;
 	margin-left:20px;
 	box-shadow:5px 5px 10px #3F8AB1;
 	animation: tx 3s 1;
@@ -241,7 +242,9 @@ footer{
 /*3)Контакты*/
 
 .text2{
-	display:block;
+	width:555px;
+	left:-560px;
+	transition: all ease 0.5s;	
 	border-radius: 20px;
 	PADDING: 20px;
 	background-color:#BDDCEC;
@@ -249,23 +252,41 @@ footer{
 	box-shadow:8px 8px 20px #71919A;
 	position:absolute;
 	font-size: 35px;
-	margin-left: 900px;
-	margin-top:50px;	
+	
+	margin-top:90px;
+
 }
 
 .text2:hover{
 	border:6px solid #BDDCEC;
+	left:0;
+}
+
+#menu{
+	padding-left:540px;
+	
 }
 
 /*Таблица*/
 
 .table{
+	width:590px;
 	position: absolute;
-	display:block;
-	padding-left:960px;
-	padding-top:30px;
+	left:-540px;
+	padding-left: 20px;
+	padding-top:80px;
+	transition: all ease 0.5s;
 }
 
+.table:hover{
+	left:0;
+}
+
+#menu1{
+	padding-left:240px;
+	padding-top:3px;
+	
+}
 
 .Q{
 	color:#000000;
