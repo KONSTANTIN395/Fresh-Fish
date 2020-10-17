@@ -24,6 +24,8 @@ li{
 	padding-left:100px;
 }
 
+
+
 #nav {
 	float:left;
 	position:relative;
@@ -77,13 +79,7 @@ li{
 	left:0;
 }
 
-/*#nav > li ul li{
-	border-right: 2px solid black;
-	border-left: 2px solid black;
-	border-top: 2px solid black;
-	border-bottom: 2px solid black;
-	
-}*/
+
 
 
 
@@ -216,7 +212,7 @@ footer{
 	COLOR: #000000;
 	FONT-SIZE: 23px;
 	PADDING: 20px;
-	margin-top:256px;
+	margin-top:306px;
 	margin-left:20px;
 	box-shadow:5px 5px 10px #3F8AB1;
 	animation: tx 3s 1;
@@ -243,8 +239,8 @@ footer{
 .text1{
 	border-radius: 20px;
 	font-family:sans-serif;
-	PADDING: 20px;
-	margin-top:256px;
+	PADDING: 10px;
+	margin-top:295px;
 	margin-left:20px;
 	position: absolute;
 	font-size: 25px;
